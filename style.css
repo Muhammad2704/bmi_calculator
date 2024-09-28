@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: sans-serif;
+    height: 100vh;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/463/91/650/muscle-muscle-background-black-pose-dumbbells-hd-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    
+}
+.content{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    width: 50vh;
+    box-shadow: 0px 0px 6px 2px grey;
+    margin-top: 9vh;
+    margin-left: 70vh;
+    background-color: rgba(240, 248, 255, 0.233);
+   
+}
+.main{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.heading{
+    box-shadow: 0px 0px 6px 0px grey;
+    background-color: rgba(222, 222, 222, 0.5);
+    display: flex;
+    border-radius: 10px;
+    margin: 15px;
+
+}
+.heading h1{
+    font-size: 4vh;
+    color: rgba(77, 17, 17, 0.649);
+}
+.heading p{
+    font-size: 3vh;
+    font-weight: bolder;
+    color: rgba(68, 7, 7, 0.719);
+
+}
+.input{
+    box-shadow: 0px 0px 6px 0px grey;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    border-radius: 10px;
+    background-color: rgba(222, 222, 222, 0.5);
+    margin: 15px;
+    padding:30px 60px;
+
+}
+.input span{
+    color: rgba(68, 7, 7, 0.719);
+    font-size:15px;  
+    font-weight: bold; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.input input,select{
+    color: rgba(68, 7, 7, 0.719);
+    background-color:  rgba(195, 186, 186, 0.555);
+    width: 100%;
+    height: 3vh;
+    /* font-size: ; */
+    border: 0;
+    border-radius: 5px;
+    margin-top: 12px;
+}
+.input button{
+    margin-top: 4vh;
+    padding:5px 10px;
+   border-radius: 30px;
+   border: 0;
+   font-weight: bolder;
+   /* font-size: ; */
+   background-color:  rgba(195, 186, 186, 0.726);
+   color: rgba(68, 7, 7, 0.719);
+}
+.input button:hover{
+    background-color:  rgba(68, 7, 7, 0.719);
+    color: rgba(195, 186, 186, 0.726);   
+}
+.result{
+    box-shadow: 0px 0px 6px 0px grey;
+    background-color:  rgba(195, 186, 186, 0.726);
+   color: rgba(68, 7, 7, 0.719);
+   font-size: 1vh;
+   border-radius: 10px;
+   margin: 15px;
+   text-align: center;
+   text-decoration:underline;
+   display:flex;
+   flex-direction: column;
+   gap: 2vh;
+
+}
+.result1{
+    background-color:  rgba(195, 186, 186, 0.905);
+   color: rgba(68, 7, 7, 0.719);
+   font-size: 2vh;
+   border-radius: 10px;
+   margin: 10px;
+   text-align: center;
+   text-decoration:underline;
+
+}

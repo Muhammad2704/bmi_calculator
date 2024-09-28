@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI CALCULATOR</title>
+    <!-- fav icon -->
+    <link rel="icon" href="./better-health.png">
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="content">
+            <div class="main">
+                <div class="heading">
+                    <img width="70vh" style="padding: 5px; border-radius: 10px;" src="https://th.bing.com/th/id/R.346035028e0dae745716d020b33bf334?rik=t18uguPbk3IThw&riu=http%3a%2f%2fwww.thinwithin.org%2fwp-content%2fuploads%2f2015%2f05%2fscaledeception-300x288.jpg&ehk=%2fKALTqEJWpozHH9X8RtCeS29ZXr6yYXXhqaRwmsSVSU%3d&risl=&pid=ImgRaw&r=0" alt="">
+                    <div>
+                        <h1>BMI Calculator</h1>
+                        <p>Body Mass Index</p>
+                    </div>
+                </div>
+                <div style="color: rgba(68, 7, 7, 0.752); border-radius: 10px;
+                margin: 15px;
+                font-size: 2vh; background-color:rgba(195, 186, 186, 0.533); box-shadow: 0px 0px 6px 0px grey; text-align: center; font-weight: bolder;">
+                    Healthy BMI range: 18.5 kg/m² - 25 kg/m²
+                </div>
+
+                <!-- Input Section -->
+                <div class="input">
+                    <div class="gender">
+                        <span>Gender : </span>
+                        <select id="gender">
+                            <option value="" hidden>Select Your Gender</option>
+                            <option value="m">Male</option>
+                            <option value="f">Female</option>
+                        </select>
+                    </div>
+                    <div class="age">
+                        <span> Age (2yrs And Above) : </span>
+                        <input id="age" type="text" placeholder=" Enter Your Age">
+                    </div>
+                    <div class="weight">
+                        <span>Weight : </span>
+                        <input id="weight" type="text" placeholder=" Enter Your Weight in Kgs">
+                    </div>
+                    <div class="height">
+                        <span>Height : </span>
+                        <input id="height" type="text" placeholder=" Enter Your Height in cm">
+                    </div>
+                    <div class="btn">
+                        <button onclick="calculateBMI()">Calculate</button>
+                        <button onclick="resetFields()">Reset</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Result Section -->
+            <div class="result">
+                <h1>RESULT</h1>
+                <div>
+                    <img width="200vh" src="https://sneha-webdeveloper.github.io/BMI-Calculator/images/bmi.png" alt="">
+                    <img id="arrow" style="position: absolute; height: 50px;left:92vh; margin: auto;top: 770px; width: 50px; margin-top:20px;margin-left: 30px;" src="https://sneha-webdeveloper.github.io/BMI-Calculator/images/arrow.png" alt="">
+                </div>
+                <div class="result1" style="font-size: 1vh; font-weight: bolder; color: rgb(185, 5, 5);"  id="bmiResult">
+                    YOUR BMI IS:
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+            
+        </body>
+        <script src="./script.js"></script>
+        </html>
